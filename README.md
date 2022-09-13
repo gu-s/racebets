@@ -3,6 +3,9 @@
 ## Installation
 Run this scripts to setup the server
 - `composer install`
+- `cp .env.example .env`
+
+the next command create the tables in the DB, setup correctly the database environment in the `.env` file before:
 - `php artisan migrate`
 
 ## Usage
